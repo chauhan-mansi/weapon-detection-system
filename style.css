@@ -1,0 +1,132 @@
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(15, 1, 20);
+    padding-left: 1%;
+}
+
+div.container-fluid a:hover {
+    color: rgb(195, 111, 32);
+    border-radius: 5%;
+}
+
+.container-fluid {
+    margin-left: 2%;
+    margin-right: 50%;
+    padding-left: 3%;
+}
+
+p.intro {
+    font-size: larger;
+    color: white;
+}
+
+p.processing {
+    font-size: larger;
+    color: white;
+}
+
+p.objectives {
+    font-size: larger;
+    color: white;
+
+}
+
+p.learning {
+    font-size: larger;
+    color: white;
+}
+
+p.real-time {
+    font-size: larger;
+    color: white;
+}
+
+p.channel {
+    font-size: larger;
+    color: white;
+}
+
+p.heading {
+    padding-left: 30%;
+}
+
+p.head {
+    font-size: larger;
+    color: white;
+}
+
+div i:hover {
+    color: rgb(195, 111, 32);
+}
+
+div i {
+    color: black;
+    font-size: large;
+    margin-left: 85%;
+    position: absolute;
+}
+
+a.signup {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 87%;
+    position: absolute;
+}
+
+div.email label {
+    color: white;
+}
+
+div.password label {
+    color: white;
+}
+
+form div {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+
+}
+
+div.components {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.mainheading {
+    padding-top: 5%;
+    color: rgb(244, 249, 250);
+    font-size: 400%;
+    line-height: 150%;
+}
+
+div.aboutus {
+    font-size: larger;
+    color: aliceblue;
+    line-height: 250%;
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-bottom: none;
+}
+
+div.method {
+    font-size: larger;
+    color: aliceblue;
+    line-height: 250%;
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-bottom: none;
+}
+
+
+body {
+    background: url(uss.jpg);
+    background-size: 100%;
+    overflow-x: hidden;
+
+}
