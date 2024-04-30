@@ -5,17 +5,25 @@
     font-weight: bold;
     color: rgb(15, 1, 20);
     padding-left: 1%;
+
 }
 
 div.container-fluid a:hover {
-    color: rgb(195, 111, 32);
+    transition: 0.8s;
+    background-color: rgb(241, 170, 103);
     border-radius: 5%;
+
+}
+
+div.container-fluid a.signup {
+    text-decoration: none;
 }
 
 .container-fluid {
     margin-left: 2%;
     margin-right: 50%;
     padding-left: 3%;
+
 }
 
 p.intro {

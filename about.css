@@ -8,8 +8,13 @@
 }
 
 div.container-fluid a:hover {
-    color: rgb(195, 111, 32);
+    transition: 0.8s;
+    background-color: rgb(241, 170, 103);
     border-radius: 5%;
+}
+
+div.container-fluid a.signup {
+    text-decoration: none;
 }
 
 .container-fluid {
