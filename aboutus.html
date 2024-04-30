@@ -17,7 +17,7 @@
 </head>
 
 <body class="about">
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">HOME</a>
             <a class="navbar-brand" href="aboutus.html">ABOUT US</a>
@@ -28,45 +28,59 @@
         </div>
     </nav>
     <div class="aboutus">
-        <p>
-        <h1>INTRODUCTION</h1>
-        <p class="intro">Violence and weapon-related incidents are a
-            growing concern globally. Early detection of
-            weapons in public areas can significantly
-            improve response times and potentially prevent
-            tragedies. This project proposes an innovative
-            weapon detection system utilizing the power of
-            the Internet of Things (IoT)forreal-time threat
-            identification.</p>
-        <br>
-        <h1>EDGE PROCESSING</h1>
-        <p class="processing">Edge processing will be a centralfeature, allowing the sensors to perform on-device
-            analysis of
-            the collected data. This reduces reliance on centralized servers, minimizes bandwidth
-            consumption, and enables fasterresponse times in case of a potentialthreat.
-            When the sensor network detects a possible weapon, it willtrigger an alertthat gets sentto a
-            centralized monitoring station. This station will be equipped with advanced software for:<br>
-            <b>Data aggregation: </b>Combining information from various sensors for a more comprehensive
-            picture.
+        <div class="row">
+            <div class="col">
+                <h1 class="int">INTRODUCTION</h1>
+                <p class="intro">Violence and weapon-related incidents are a
+                    growing concern globally. Early detection of
+                    weapons in public areas can significantly
+                    improve response times and potentially prevent
+                    tragedies. This project proposes an innovative
+                    weapon detection system utilizing the power of
+                    the Internet of Things (IoT)forreal-time threat
+                    identification.
+                    <br>
+                    <br>
+                    This system leverages a Raspberry Pi, a small and powerful computer, combined with a camera to
+                    analyze live footage. By harnessing the capabilities of machine learning, the system can be trained
+                    to recognize various types of weapons with exceptional accuracy.
+                </p>
+            </div>
             <br>
-            <b>Threat verification:</b> Employing machine learning algorithms to confirm the presence of a
-            weapon and distinguish itfrom harmless objects.<br>
-            <b>Alert escalation:</b> Informing security personnel and initiating appropriate protocols based on
-            the verified threatlevel.
-        </p>
-        <br>
-        <h1>OBJECTIVES</h1>
-        <p class="objectives">To detectthe gun in public place for security
-            purpose.<br>
-            Accurate: Minimizing false positives and
-            ensuring reliable weapon identification.<br>
-            Real-time: Enabling immediate response to
-            potentialthreats through edge processing
-            and timely alerts.<br>
-            Scalable: Designed for easy deployment
-            across various environments with the
-            ability to add more sensors as needed</p>
-        </p><br>
+            <div class="col">
+                <h1 class="process">EDGE PROCESSING</h1>
+                <p class="processing">Edge processing will be a centralfeature, allowing the sensors to perform
+                    on-device
+                    analysis of
+                    the collected data. This reduces reliance on centralized servers, minimizes bandwidth
+                    consumption, and enables fasterresponse times in case of a potentialthreat.
+                    When the sensor network detects a possible weapon, it willtrigger an alertthat gets sentto a
+                    centralized monitoring station. This station will be equipped with advanced software for:<br>
+                    <b>Data aggregation: </b>Combining information from various sensors for a more comprehensive
+                    picture.
+                    <br>
+                    <b>Threat verification:</b> Employing machine learning algorithms to confirm the presence of a
+                    weapon and distinguish itfrom harmless objects.<br>
+                    <b>Alert escalation:</b> Informing security personnel and initiating appropriate protocols based on
+                    the verified threatlevel.
+                </p>
+            </div>
+            <br>
+
+            <h1 class="obj">OBJECTIVES</h1>
+            <p class="objectives">To detectthe gun in public place for security
+                purpose.<br>
+                Accurate: Minimizing false positives and
+                ensuring reliable weapon identification.<br>
+                Real-time: Enabling immediate response to
+                potentialthreats through edge processing
+                and timely alerts.<br>
+                Scalable: Designed for easy deployment
+                across various environments with the
+                ability to add more sensors as needed</p>
+            </p>
+
+        </div><br>
         <h1 class="team">TEAM G4 : EAGLE EYE</h1><br>
         <div class="container">
             <div class="card">
