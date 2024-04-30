@@ -15,20 +15,6 @@ div.container-fluid a:hover {
 
 }
 
-h1.mainheading p.heading {
-    animation: fadeIn 3.5s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 div.container-fluid a.signup {
     text-decoration: none;
 }
@@ -151,4 +137,46 @@ body {
     background-size: 100%;
     overflow-x: hidden;
 
+}
+
+.card2 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 362px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+
+    &:hover {
+        transition: all 0.1s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -8px;
+        border: 1px solid #cccccc;
+        background-color: white;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+    }
+
+    &:hover:before {
+        transform: scale(2.15);
+    }
 }
