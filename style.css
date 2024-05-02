@@ -41,6 +41,32 @@ div.container-fluid a.signup {
 
 }
 
+div.btn button.sign {
+    text-decoration: none;
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgba(252, 205, 144, 0.871);
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: rgb(145, 146, 148);
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+div.btn {
+    align-items: center;
+    padding-left: 25%;
+}
+
+div.btn button.sign:hover {
+    transition: 0.5s;
+    background-color: rgba(250, 151, 58, 0.838);
+    border-radius: 5%;
+    color: black;
+}
+
 .container-fluid {
     margin-left: 2%;
     margin-right: 50%;
