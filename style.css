@@ -28,8 +28,17 @@ h1.mainheading p.heading {
     }
 }
 
+div.container-fluid a.signup:hover {
+    transition: 0.5s;
+    background-color: rgba(250, 151, 58, 0.838);
+    border-radius: 5%;
+    color: black;
+}
+
 div.container-fluid a.signup {
     text-decoration: none;
+    color: rgba(252, 205, 144, 0.871);
+
 }
 
 .container-fluid {
@@ -80,14 +89,15 @@ p.head {
 }
 
 div i:hover {
-    color: rgb(195, 111, 32);
+    color: rgba(250, 151, 58, 0.838);
 }
 
 div i {
-    color: black;
+    color: rgba(252, 205, 144, 0.871);
     font-size: large;
     margin-left: 85%;
     position: absolute;
+
 }
 
 a.signup {
